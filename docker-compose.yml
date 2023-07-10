@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      - C:\\log_files:/app/reservaDeLugares/src/main/java/server_logs
